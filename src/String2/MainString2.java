@@ -13,5 +13,6 @@ public class MainString2 {
         MixString mixString = new MixString("2/", "27 around");
         RepeatEnd repeatEnd = new RepeatEnd("Hello", 3);
         RepeatFront repeatFront = new RepeatFront("Chocolate", 4);
+        RepeatSeparator repeatSeparator = new RepeatSeparator("Word", "X", 3);
     }
 }
