@@ -16,5 +16,6 @@ public class MainString2 {
         RepeatSeparator repeatSeparator = new RepeatSeparator("Word", "X", 3);
         PrefixAgain prefixAgain = new PrefixAgain("xyzxyxyxy", 2);
         XyzMiddle xyzMiddle = new XyzMiddle("AxyzBBB");
+        GetSadndwich getSadndwich = new GetSadndwich("breadAbread");
     }
 }
