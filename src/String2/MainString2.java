@@ -19,5 +19,6 @@ public class MainString2 {
         GetSadndwich getSadndwich = new GetSadndwich("xxbreadbreadjambreadyy");
         SameStarChar sameStarChar = new SameStarChar("XY*YYYY*Y*");
         OneTwo oneTwo = new OneTwo("1234567890");
+        ZipZap zipZap = new ZipZap("zzzopzop");
     }
 }
