@@ -6,7 +6,7 @@ public class GetSadndwich {
 
     public GetSadndwich(String str) {
         this.str = str;
-        System.out.println("GetSandwich: " + get() + " " + counter);
+        System.out.println("GetSandwich: " + get() + " ,LoopCounter: " + counter);
     }
 
     private String get() {
