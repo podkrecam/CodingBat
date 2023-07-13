@@ -32,10 +32,6 @@ public class GetSadndwich {
             }
         }
 
-        if (start < end) {
-            return str.substring(start, end);
-        } else {
-            return "";
-        }
+        return start < end ? str.substring(start, end) : "";
     }
 }
