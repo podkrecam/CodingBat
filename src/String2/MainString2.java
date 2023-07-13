@@ -18,5 +18,6 @@ public class MainString2 {
         XyzMiddle xyzMiddle = new XyzMiddle("AxyzBBB");
         GetSadndwich getSadndwich = new GetSadndwich("xxbreadbreadjambreadyy");
         SameStarChar sameStarChar = new SameStarChar("XY*YYYY*Y*");
+        OneTwo oneTwo = new OneTwo("1234567890");
     }
 }
