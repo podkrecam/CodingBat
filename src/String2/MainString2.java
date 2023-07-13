@@ -17,5 +17,6 @@ public class MainString2 {
         PrefixAgain prefixAgain = new PrefixAgain("xyzxyxyxy", 2);
         XyzMiddle xyzMiddle = new XyzMiddle("AxyzBBB");
         GetSadndwich getSadndwich = new GetSadndwich("xxbreadbreadjambreadyy");
+        SameStarChar sameStarChar = new SameStarChar("XY*YYYY*Y*");
     }
 }
