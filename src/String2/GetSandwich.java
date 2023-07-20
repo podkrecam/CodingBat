@@ -1,10 +1,10 @@
 package String2;
 
-public class GetSadndwich {
+public class GetSandwich {
     private String str;
     private int counter = 0;
 
-    public GetSadndwich(String str) {
+    public GetSandwich(String str) {
         this.str = str;
         System.out.println("GetSandwich: " + get() + " ,LoopCounter: " + counter);
     }

@@ -13,10 +13,10 @@ public class WordEnds {
     public WordEnds(String str, String word) {
         this.str = str;
         this.word = word;
-        System.out.println("PlusOut: " + make() + " LoopCounter: " + counter);
-        System.out.println("PlusOut: " + make1() + " LoopCounter1: " + counter);
+//        System.out.println("PlusOut: " + make() + " LoopCounter: " + counter);
+//        System.out.println("PlusOut: " + make1() + " LoopCounter1: " + counter);
         System.out.println("PlusOut: " + make2() + " LoopCounter2: " + counter);
-        System.out.println("PlusOut: " + make3() + " LoopCounter3: " + counter);
+//        System.out.println("PlusOut: " + make3() + " LoopCounter3: " + counter);
     }
 
 
