@@ -21,5 +21,7 @@ public class MainString2 {
         OneTwo oneTwo = new OneTwo("1234567890");
         ZipZap zipZap = new ZipZap("zzzopzop");
         StarOut starOut = new StarOut("sm***eil*ly");
+        PlusOut plusOut = new PlusOut("aaxxxxbb", "xx");
+        WordEnds wordEnds = new WordEnds("abc1abc1abc", "abc");
     }
 }
