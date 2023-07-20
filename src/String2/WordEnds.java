@@ -51,15 +51,13 @@ public class WordEnds {
             if (str.startsWith(word, i) && str.length() > word.length()) {
                 if (i == 0) {
                     temp += str.charAt(i + word.length());
-                    i += word.length();
                 } else if (i == str.length() - word.length()) {
                     temp += str.charAt(i - 1);
-                    i += word.length();
                 } else {
                     temp += str.charAt(i - 1);
                     temp += str.charAt(i + word.length());
-                    i += word.length();
                 }
+                i += word.length();
             } else {
                 i++;
             }
@@ -69,22 +67,18 @@ public class WordEnds {
 
     private String make2() {
         String temp = "";
-        counter = 0;
 
         for (int i = 0; i < str.length(); ) {
-            counter++;
             if (str.startsWith(word, i) && str.length() > word.length()) {
                 if (i == 0) {
                     temp += str.charAt(i + word.length());
-                    i += word.length();
                 } else if (i == str.length() - word.length()) {
                     temp += str.charAt(i - 1);
-                    i += word.length();
                 } else {
                     temp += str.charAt(i - 1);
                     temp += str.charAt(i + word.length());
-                    i += word.length();
                 }
+                i += word.length();
             } else {
                 i++;
             }
