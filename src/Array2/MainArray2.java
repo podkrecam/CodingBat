@@ -22,5 +22,7 @@ public class MainArray2 {
         FizzArray2 fizzArray2 = new FizzArray2(10);
         int[] no14Array = {1, 2, 3, 4};
         No14 no14 = new No14(no14Array);
+        int[] isEverywhereArray = {2, 1, 2, 2, 2, 1, 1, 2};
+        IsEverywhere isEverywhere = new IsEverywhere(isEverywhereArray, 2);
     }
 }
