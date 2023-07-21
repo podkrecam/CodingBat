@@ -19,5 +19,6 @@ public class MainArray2 {
         More14 more14 = new More14(more14Array);
         FizzArray fizzArray = new FizzArray(10);
         Only14 only14 = new Only14(more14Array);
+        FizzArray2 fizzArray2 = new FizzArray2(10);
     }
 }
