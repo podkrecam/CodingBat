@@ -17,5 +17,6 @@ public class MainArray2 {
         Sum28 sum28 = new Sum28(sum28Array);
         int[] more14Array = {1, 4, 1, 4, 1, 6};
         More14 more14 = new More14(more14Array);
+        FizzArray fizzArray = new FizzArray(10);
     }
 }
