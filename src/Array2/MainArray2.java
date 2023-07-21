@@ -15,5 +15,7 @@ public class MainArray2 {
         Lucky13 lucky13 = new Lucky13(arrayCountEvens);
         int[] sum28Array = {2, 3, 2, 2, 4, 1, 2};
         Sum28 sum28 = new Sum28(sum28Array);
+        int[] more14Array = {1, 4, 1, 4, 1, 6};
+        More14 more14 = new More14(more14Array);
     }
 }
