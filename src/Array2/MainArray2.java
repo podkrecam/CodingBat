@@ -12,5 +12,6 @@ public class MainArray2 {
         int[] sum67Array = {1, 6, 2, 2, 7, 1, 6, 99, 99, 7};
         Sum67 sum67 = new Sum67(sum67Array);
         Has22 has22 = new Has22(sum67Array);
+        Lucky13 lucky13 = new Lucky13(arrayCountEvens);
     }
 }
