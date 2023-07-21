@@ -20,5 +20,7 @@ public class MainArray2 {
         FizzArray fizzArray = new FizzArray(10);
         Only14 only14 = new Only14(more14Array);
         FizzArray2 fizzArray2 = new FizzArray2(10);
+        int[] no14Array = {1, 2, 3, 4};
+        No14 no14 = new No14(no14Array);
     }
 }
