@@ -11,5 +11,6 @@ public class MainArray2 {
         Sum13 sum13 = new Sum13(sum13Array);
         int[] sum67Array = {1, 6, 2, 2, 7, 1, 6, 99, 99, 7};
         Sum67 sum67 = new Sum67(sum67Array);
+        Has22 has22 = new Has22(sum67Array);
     }
 }
