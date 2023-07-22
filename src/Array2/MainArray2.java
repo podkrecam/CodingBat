@@ -24,5 +24,7 @@ public class MainArray2 {
         No14 no14 = new No14(no14Array);
         int[] isEverywhereArray = {2, 1, 2, 2, 2, 1, 1, 2};
         IsEverywhere isEverywhere = new IsEverywhere(isEverywhereArray, 2);
+        int[] either24Array = {1, 2, 3, 2, 2, 4, 4};
+        Either24 either24 = new Either24(either24Array);
     }
 }
