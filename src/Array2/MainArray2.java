@@ -26,5 +26,8 @@ public class MainArray2 {
         IsEverywhere isEverywhere = new IsEverywhere(isEverywhereArray, 2);
         int[] either24Array = {1, 2, 3, 2, 2, 4, 4};
         Either24 either24 = new Either24(either24Array);
+        int[] matchUpArray1 = {1, 2, 3};
+        int[] matchUpArray2 = {2, 3, 10};
+        MatchUp matchUp = new MatchUp(matchUpArray1, matchUpArray2);
     }
 }
