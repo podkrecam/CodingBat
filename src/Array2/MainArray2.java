@@ -39,5 +39,7 @@ public class MainArray2 {
         HaveThree haveThree = new HaveThree(haveThreeArray);
         int[] twoTwoArray = {2, 2, 7, 2, 1};
         TwoTwo twoTwo = new TwoTwo(twoTwoArray);
+        int[] sameEndsArray = {5, 6, 45, 99, 13, 5, 6};
+        SameEnds sameEnds = new SameEnds(sameEndsArray, 2);
     }
 }
