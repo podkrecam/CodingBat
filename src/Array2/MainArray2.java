@@ -48,5 +48,7 @@ public class MainArray2 {
         ShiftLeft shiftLeft = new ShiftLeft(shiftLeftArray);
         int[] tenRunArray = {2, 10, 3, 4, 20, 5};
         TenRun tenRun = new TenRun(tenRunArray);
+        int[] pre4Array = {1, 2, 4, 1};
+        Pre4 pre4 = new Pre4(pre4Array);
     }
 }
