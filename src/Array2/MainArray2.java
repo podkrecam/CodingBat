@@ -37,5 +37,7 @@ public class MainArray2 {
         ModThree modThree = new ModThree(modThreeArray);
         int[] haveThreeArray = {1, 3, 1, 3, 1, 3, 4, 3};
         HaveThree haveThree = new HaveThree(haveThreeArray);
+        int[] twoTwoArray = {2, 2, 7, 2, 1};
+        TwoTwo twoTwo = new TwoTwo(twoTwoArray);
     }
 }
