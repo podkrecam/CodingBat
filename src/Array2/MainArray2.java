@@ -41,5 +41,7 @@ public class MainArray2 {
         TwoTwo twoTwo = new TwoTwo(twoTwoArray);
         int[] sameEndsArray = {5, 6, 45, 99, 13, 5, 6};
         SameEnds sameEnds = new SameEnds(sameEndsArray, 2);
+        int[] tripleUpArray = {1, 2, 4, 5, 7, 6, 5, 6, 7, 6};
+        TripleUp tripleUp = new TripleUp(tripleUpArray);
     }
 }
