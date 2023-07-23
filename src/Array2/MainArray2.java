@@ -43,5 +43,6 @@ public class MainArray2 {
         SameEnds sameEnds = new SameEnds(sameEndsArray, 2);
         int[] tripleUpArray = {1, 2, 4, 5, 7, 6, 5, 6, 7, 6};
         TripleUp tripleUp = new TripleUp(tripleUpArray);
+        FizzArray3 fizzArray3 = new FizzArray3(5, 10);
     }
 }
