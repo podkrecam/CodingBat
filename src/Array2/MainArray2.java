@@ -35,5 +35,7 @@ public class MainArray2 {
         Has12 has12 = new Has12(has12Array);
         int[] modThreeArray = {9, 7, 2, 9, 2, 2, 6};
         ModThree modThree = new ModThree(modThreeArray);
+        int[] haveThreeArray = {1, 3, 1, 3, 1, 3, 4, 3};
+        HaveThree haveThree = new HaveThree(haveThreeArray);
     }
 }
