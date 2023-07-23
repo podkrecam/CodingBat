@@ -44,5 +44,7 @@ public class MainArray2 {
         int[] tripleUpArray = {1, 2, 4, 5, 7, 6, 5, 6, 7, 6};
         TripleUp tripleUp = new TripleUp(tripleUpArray);
         FizzArray3 fizzArray3 = new FizzArray3(5, 10);
+        int[] shiftLeftArray = {6, 2, 5, 3};
+        ShiftLeft shiftLeft = new ShiftLeft(shiftLeftArray);
     }
 }
