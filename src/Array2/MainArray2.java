@@ -50,5 +50,7 @@ public class MainArray2 {
         TenRun tenRun = new TenRun(tenRunArray);
         int[] pre4Array = {1, 2, 4, 1};
         Pre4 pre4 = new Pre4(pre4Array);
+        int[] post4Array = {4, 4, 1, 2, 3};
+        Post4 post4 = new Post4(post4Array);
     }
 }
