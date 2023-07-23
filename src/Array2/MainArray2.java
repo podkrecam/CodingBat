@@ -31,5 +31,7 @@ public class MainArray2 {
         MatchUp matchUp = new MatchUp(matchUpArray1, matchUpArray2);
         int[] has77Array = {2, 7, 2, 2, 7, 2};
         Has77 has77 = new Has77(has77Array);
+        int[] has12Array = {3, 1, 4, 1, 6, 2};
+        Has12 has12 = new Has12(has12Array);
     }
 }
