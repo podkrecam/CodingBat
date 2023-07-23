@@ -19,12 +19,14 @@ public class ModThree {
         boolean hasEven = false;
         boolean hasOdd = false;
 
-        for (int i = 0; i < nums.length - 2 || (hasEven && hasOdd); i++) {
+        for (int i = 0; i < nums.length - 2; i++) {
             if (nums[i] % 2 == 0 && nums[i + 1] % 2 == 0 && nums[i + 2] % 2 == 0) {
                 hasEven = true;
+                break;
             }
             if (nums[i] % 2 != 0 && nums[i + 1] % 2 != 0 && nums[i + 2] % 2 != 0) {
                 hasOdd = true;
+                break;
             }
         }
         return hasEven || hasOdd;
