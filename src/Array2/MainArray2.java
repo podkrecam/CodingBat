@@ -56,5 +56,7 @@ public class MainArray2 {
         NotAlone notAlone = new NotAlone(notAloneArray, 1);
         int[] zeroFrontArray = {1, 0, 0, 1};
         ZeroFront zeroFront = new ZeroFront(zeroFrontArray);
+        int[] withoutTenArray = {10, 13, 10, 14, 10};
+        WithoutTen withoutTen = new WithoutTen(withoutTenArray);
     }
 }
