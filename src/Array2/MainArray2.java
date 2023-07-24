@@ -54,5 +54,7 @@ public class MainArray2 {
         Post4 post4 = new Post4(post4Array);
         int[] notAloneArray = {1, 1, 1};
         NotAlone notAlone = new NotAlone(notAloneArray, 1);
+        int[] zeroFrontArray = {1, 0, 0, 1};
+        ZeroFront zeroFront = new ZeroFront(zeroFrontArray);
     }
 }
