@@ -58,5 +58,10 @@ public class MainArray2 {
         ZeroFront zeroFront = new ZeroFront(zeroFrontArray);
         int[] withoutTenArray = {10, 13, 10, 14, 10};
         WithoutTen withoutTen = new WithoutTen(withoutTenArray);
+        int[] zeroMaxArray = {0, 1, 0, 3};
+        ZeroMax zeroMax = new ZeroMax(zeroMaxArray);
+        int[] evenOddArray = {1, 0, 1, 0, 0, 1, 1};
+        EvenOdd evenOdd = new EvenOdd(evenOddArray);
+        FizzBuzz fizzBuzz = new FizzBuzz(1, 6);
     }
 }
