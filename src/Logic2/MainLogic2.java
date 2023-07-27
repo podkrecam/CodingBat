@@ -7,5 +7,6 @@ public class MainLogic2 {
         LuckySum luckySum = new LuckySum(1, 2, 13);
         NoTeenSum noTeenSum = new NoTeenSum(2, 13, 1);
         RoundSum roundSum = new RoundSum(16, 17, 4);
+        CloseFar closeFar = new CloseFar(1, 2, 3);
     }
 }
