@@ -8,5 +8,6 @@ public class MainLogic2 {
         NoTeenSum noTeenSum = new NoTeenSum(2, 13, 1);
         RoundSum roundSum = new RoundSum(16, 17, 4);
         CloseFar closeFar = new CloseFar(1, 2, 3);
+        BlackJack blackJack = new BlackJack(19, 22);
     }
 }
