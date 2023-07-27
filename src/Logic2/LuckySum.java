@@ -31,7 +31,7 @@ public class LuckySum {
         if (c == 13) {
             return a + b;
         }
-        
+
         return a + b + c;
     }
 }
