@@ -25,11 +25,8 @@ public class NoTeenSum {
     }
 
     private int sum() {
-        a = fixTeen(a);
-        b = fixTeen(b);
-        c = fixTeen(c);
 
-        return a + b + c;
+        return fixTeen(a) + fixTeen(b) + fixTeen(c);
     }
 
     private int fixTeen(int n) {
