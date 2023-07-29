@@ -9,5 +9,6 @@ public class MainLogic2 {
         RoundSum roundSum = new RoundSum(16, 17, 4);
         CloseFar closeFar = new CloseFar(1, 2, 3);
         BlackJack blackJack = new BlackJack(19, 22);
+        EvenlySpaced evenlySpaced = new EvenlySpaced(4,6,3);
     }
 }
