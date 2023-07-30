@@ -9,5 +9,6 @@ public class MainString3 {
         CountTriple countTriple = new CountTriple("xxxabyyyycd");
         SumDigits sumDigits = new SumDigits("aa1bc2d3");
         SameEnds sameEnds = new SameEnds("xavaXYZjava");
+        MirrorEnds mirrorEnds = new MirrorEnds("abXYZba");
     }
 }
