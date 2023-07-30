@@ -18,16 +18,16 @@ public class WithoutString {
     }
 
     private String create() {
-        String temp = "";
+        StringBuilder temp = new StringBuilder();
 
         for (int i = 0; i < base.length(); i++) {
             if (i <= base.length() - remove.length() && base.substring(i, i + remove.length()).equalsIgnoreCase(remove)) {
                 i += remove.length() - 1;
             } else {
-                temp += base.charAt(i);
+                temp.append(base.charAt(i));
             }
         }
 
-        return temp;
+        return temp.toString();
     }
 }
