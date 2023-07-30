@@ -5,5 +5,6 @@ public class MainString3 {
         CountYZ countYZ = new CountYZ("!!day--yaz!!");
         WithoutString withoutString = new WithoutString("Hello there", "llo");
         EqualIsNot equalIsNot = new EqualIsNot("mis3notpotbotis");
+        GHappy gHappy = new GHappy("xxgggxygg");
     }
 }
