@@ -11,5 +11,6 @@ public class MainString3 {
         SameEnds sameEnds = new SameEnds("xavaXYZjava");
         MirrorEnds mirrorEnds = new MirrorEnds("abXYZba");
         MaxBlock maxBlock = new MaxBlock("abbCCCddBBBxx");
+        SumNumbers sumNumbers = new SumNumbers("aa11b33");
     }
 }
