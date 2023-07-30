@@ -7,5 +7,6 @@ public class MainString3 {
         EqualIsNot equalIsNot = new EqualIsNot("mis3notpotbotis");
         GHappy gHappy = new GHappy("xxgggxygg");
         CountTriple countTriple = new CountTriple("xxxabyyyycd");
+        SumDigits sumDigits = new SumDigits("aa1bc2d3");
     }
 }
