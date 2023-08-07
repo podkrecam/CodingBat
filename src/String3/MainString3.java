@@ -12,5 +12,6 @@ public class MainString3 {
         MirrorEnds mirrorEnds = new MirrorEnds("abXYZba");
         MaxBlock maxBlock = new MaxBlock("abbCCCddBBBxx");
         SumNumbers sumNumbers = new SumNumbers("aa11b33");
+        NotReplace notReplace = new NotReplace("is is");
     }
 }
